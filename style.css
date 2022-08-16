@@ -80,17 +80,19 @@ img {
 .section2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 52px;
-    
+    height: 300px;
+    margin-bottom: 50px;
 }
 
 .image img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .title2 {
-   margin-bottom: 25px;
+   
    font-size: 36px;
    font-weight: 1000;
    color: #1f2937;
@@ -98,7 +100,22 @@ img {
 }
 
 .image {
-    max-width: 200px;    
+    max-width: 250px;    
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    max-width: 800px;
 }
 
 a {
